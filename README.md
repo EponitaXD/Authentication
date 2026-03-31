@@ -46,7 +46,8 @@ This creates a file called `pubkey.asc` — this is your **public key**. It is s
 
 ### Step 4 — Publish to GitHub
 
-1. Add `pubkey.asc` to the root of your public repo
+0. Clone this repo
+1. Add `pubkey.asc` to a folder named after your name inside this repo
 2. Commit and push
 
 ```bash
@@ -56,10 +57,6 @@ git push
 ```
 
 Your public key will then be available at a trusted, unforgeable URL:
-
-```
-https://raw.githubusercontent.com/yourusername/repo/main/pubkey.asc
-```
 
 ---
 
